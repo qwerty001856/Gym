@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sukhjot's Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono&display=swap" rel="stylesheet">
+    <link rel="icon" href="outerLogo.jpg">
+    <style>
+        *{
+    /* border: 2px red solid; */
+    font-family: 'Sono', sans-serif;
+
+}
+body{
+    background: url('dumbbells.jpg');
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sono', sans-serif;
+
+}
+#cont1{
+    display: inline-block;
+    left: 24px;
+    top: 12px;
+    position: absolute;
+}
+#cont1 img{
+    width:113px;
+    height: 54px;
+}
+#cont1 div{
+    text-align: center;
+    /* width: 60px;
+    height: 30px; */
+    font-size: 12px;
+    line-height: 0px;
+    padding: 2px;
+}
+#cont2{
+    width: 600px;
+    display: block;
+    margin: 10px auto 0px;
+}
+#cont2 a{
+    margin: 12px 10px;
+    text-decoration: none;
+    color: rgb(9, 80, 80) ;
+}
+#cont2 a:hover{
+    color: black;
+    background-color: antiquewhite;
+}
+#cont3{
+    position: absolute;
+    right: 12px;
+    top: 16px;
+    display: inline-block;
+}
+.btn{
+   padding: 3px;
+   margin: 0px 2px;
+   color:black;
+   background-color: rgb(180, 181, 200);
+   border-radius: 7px;
+   border: 2px solid rgb(53, 28, 28);
+   cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(164, 165, 183);
+
+}
+.form{
+    margin: 89px 16px;
+    padding: 5px 5px;
+    /* background-color: rgb(166, 105, 105); */
+    /* border: 2px solid rgb(119, 155, 155); */
+    width: 470px;
+    font-size: 11px;
+}
+.form input{
+    border-radius: 8px;
+}
+.info{
+    margin: 5px auto;
+    font-size: 7px;
+    width: 97%;
+    
+}
+.info input{
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 319px;
+    background-color: rgb(197, 227, 227);
+}
+.submit input{
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 319px;
+    background-color: rgb(44, 49, 52);
+    color: rgb(212, 169, 169);
+}
+.submit input:hover{
+    background-color: rgb(31, 33, 36);
+    color: rgb(207, 157, 157);
+    cursor: pointer;
+}
+    </style>    
+</head>
+<body>
+    <header class="header">
+        <div class="cont" id="cont1">
+            <img src="dumbbell.png" alt="">
+            <div>Sukhjot Fitness</div>
+        </div>
+        <div class="cont" id="cont2">
+            <ul>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Fitness Calculator</a>
+                <a href="#">Contact Us</a>
+            </ul>
+        </div>
+        <div class="cont" id="cont3">
+            <button class="btn">Subscribe</button>
+            <button class="btn">Email US</button>
+        </div>
+    </header>
+
+    <div class="form">
+        <h1>Join the best gym in your city now</h1>
+        <form action="noaction.php">
+            <div class="info">
+                <input type="text" placeholder="Enter your name" name="">
+            </div>
+            <div class="info">
+                <input type="number" placeholder="Age" name="">
+            </div>
+            <div class="info">
+                <input type="number" placeholder="Phone Number" name="">
+            </div>
+            <div class="info">
+                <input type="text" placeholder="Goal" name="">
+            </div>
+            <div class="submit">
+                <input type="submit" name="" id="" placeholder="Submit">
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>
